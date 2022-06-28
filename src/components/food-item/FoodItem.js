@@ -17,7 +17,7 @@ function FoodItem({ data }) {
         <Card.Img variant="top" src={data.productImageUrl} height="200px" />
         <Card.Body>
           <h6>
-            <b>{data.productname}</b>
+            <span><b>{data.productname}</b></span>
           </h6>
           {/* <p>
             <b>Merry Props combo veg</b>
